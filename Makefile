@@ -2,7 +2,7 @@
 
 # Название проекта
 # Влияет на то, как будет называться файл прошивки
-APPLICATION = button
+APPLICATION = ipc
 
 # Путь, по которому располагается корень исходников RIOT
 # Путь задается относительно текущей папки. 
@@ -23,7 +23,7 @@ FEATURES_REQUIRED += periph_timer
 # Запрос функции GPIO
 FEATURES_REQUIRED += periph_gpio
 
-# Запрос функции прерываний от GPIO
+# Запрос функции GPIO
 FEATURES_REQUIRED += periph_gpio_irq
 
 # Подлючение другого Makefile
